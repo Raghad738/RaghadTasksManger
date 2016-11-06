@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "496761283646",
+    "firebase_url": "https://raghadtaskmanger.firebaseio.com",
+    "project_id": "raghadtaskmanger",
+    "storage_bucket": "raghadtaskmanger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496761283646:android:d9b7e2ab6e937418",
+        "android_client_info": {
+          "package_name": "com.raghad.as.raghadtasksmanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496761283646-c9kdsmhi1phjolaatt4g3sc3pgl2anf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raghad.as.raghadtasksmanger",
+            "certificate_hash": "207C202ECE9FFC5136A38028C1532ACC3AB7EAF8"
+          }
+        },
+        {
+          "client_id": "496761283646-8qnqe7ieqfo7vueimqdojgcuhgnv90fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs41OAc_TztArmRzvlDLPUvTHSOaIHf08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496761283646-8qnqe7ieqfo7vueimqdojgcuhgnv90fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

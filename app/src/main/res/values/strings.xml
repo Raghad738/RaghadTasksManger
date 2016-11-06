@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RaghadTasksManger</string>
+    <string name="title_activity_tasks_list">tasksListActivity</string>
+    <string name="email">Email</string>
+    <string name="signin">Sign in</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="forgetpassword">Forget Password</string>
+    <string name="fullname">Full Name</string>
+    <string name="signup">Sign Up</string>
+    <string name="text">Task Text</string>
+    <string name="phone">Phone</string>
+    <string name="contacts">Contacts</string>
+    <string name="save">Save</string>
+    <string name="location">Location</string>
+    <string name="fastadd">Fast Add</string>
+    <string name="ChDone">Done</string>
+    <string name="etWhen">When</string>
+    <string name="etPriority">priority</string>
+    <string name="etTitle">Title</string>
+    <string name="tvAddress" />
+    <string name="Address">Address</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RaghadTasksManger</string>
+    <string name="email">البريد الاكتروني</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="title_activity_tasks_list"></string>
+    <string name="contacts">جهات التصال</string>
+    <string name="fastadd">اضافه سريعة</string>
+    <string name="forgetpassword">نسيت كلمة السر</string>
+    <string name="fullname">الاسم الكامل </string>
+    <string name="location">الموقع</string>
+    <string name="login">الدخول</string>
+    <string name="password">كلمة السر</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="save">احفظ</string>
+    <string name="signup">الخروج</string>
+    <string name="text">نص المهمة</string>
+</resources>
