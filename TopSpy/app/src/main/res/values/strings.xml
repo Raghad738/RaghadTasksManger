@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Top Spy</string>
+    <string name="Email">etEmail</string>
+    <string name="etEmail">Email</string>
+    <string name="etPassword">Password</string>
+    <string name="Go">btnGo</string>
+    <string name="btnGo">Go</string>
+</resources>

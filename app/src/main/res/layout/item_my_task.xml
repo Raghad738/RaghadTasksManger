@@ -13,13 +13,13 @@
         android:hint="@string/etTitle"
         android:layout_weight="0.47" />
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etWhen"
-        android:hint="@string/etWhen"
-        android:background="#797676"
-        android:layout_weight="0.63" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvItmText"
+        android:layout_weight="0.35"
+        android:hint="@string/when" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvAddress"
+            android:id="@+id/tvItmPhone"
             android:hint="@string/tvAddress"
             android:text="@string/Address"
             android:background="#e38b8686"
@@ -52,15 +52,12 @@
             android:layout_gravity="center_horizontal"
             android:background="#6d7480" />
 
-        <CheckBox
+        <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New CheckBox"
-            android:id="@+id/ChDone"
-            android:layout_gravity="right"
-            android:layout_weight="0.06"
-            android:checked="false"
-            android:hint="@string/ChDone" />
+            android:layout_height="108dp"
+            android:id="@+id/btnDel"
+            android:layout_gravity="center_horizontal"
+            android:src="@android:drawable/ic_menu_delete" />
 
     </LinearLayout>
 

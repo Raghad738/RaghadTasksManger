@@ -31,6 +31,7 @@ public class AddTaskActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +44,7 @@ public class AddTaskActivity extends AppCompatActivity {
         btnSave=(Button)findViewById(R.id.btnSave);
         rtBarPriority=(RatingBar)findViewById(R.id.rtBarPriority);
         ibLocation=(ImageButton) findViewById(R.id.ibLocation);
+
 
         eventHandlrer();
 
@@ -77,7 +79,7 @@ public class AddTaskActivity extends AppCompatActivity {
             String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
             email = email.replace(".", "_");
 
-
+                                        //smslist                       //oject MySMS
             reference.child(email).child("raghadTasks").push().setValue(myTask, new DatabaseReference.CompletionListener() {
                 @Override
                 public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
@@ -101,8 +103,13 @@ public class AddTaskActivity extends AppCompatActivity {
     {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-               dataHandler();
+            public void onClick(View view)
+            {
+                Intent i= new Intent(AddTaskActivity.this, tasksListActivity.class);
+                startActivity(i);
+
+
+                dataHandler();
 
 
 

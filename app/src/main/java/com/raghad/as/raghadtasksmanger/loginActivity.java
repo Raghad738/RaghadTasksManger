@@ -28,6 +28,14 @@ public class loginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        if (FirebaseAuth.getInstance().getCurrentUser()!=null)
+        {
+            Intent i= new Intent(loginActivity.this,tasksListActivity.class);
+            startActivity(i);
+            finish();
+        }
+
+
         etEmail=(EditText)findViewById(R.id.etEmail);
         etPassword=(EditText)findViewById(R.id.etPassword);
         btnSignIn=(Button) findViewById(R.id.btnSignIn);
@@ -78,7 +86,8 @@ public class loginActivity extends AppCompatActivity {
         });
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 Intent i= new Intent(loginActivity.this,SignUpActivity.class);
                 startActivity(i);
             }
